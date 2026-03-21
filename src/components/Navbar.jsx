@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/logo3.png'; // Make sure this path is correct
+import logo from '../assets/logo6.png'; // Make sure this path is correct
 
 function handleNavClick(e, id) {
   e.preventDefault();

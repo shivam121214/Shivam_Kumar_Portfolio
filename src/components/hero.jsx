@@ -3,33 +3,41 @@ import Spline from '@splinetool/react-spline';
 import { ArrowRight } from 'lucide-react';
 import RotatingText from './RotatingText';
 import { WordRotate } from "@/components/ui/word-rotate";
-
+import logo from '../assets/logo7.png';
 /**
  * A modern, minimal hero section component.
  */
 export default function Hero() {
   const skills = ['UI/UX Designer', 'Frontend Developer', 'Backend Developer', 'Creative Coder'];
-  const greetings = ["Hello", "Hola", "Ciao", "مرحبا"];
+  const greetings = ["Hello,", "Namaste,", "Hola,", "Bonjour,"];
 
   return (
     <section className="relative w-full h-screen overflow-hidden">
       {/* 1. Spline Background */}
-      <div className="absolute inset-0 z-10 w-full h-full">
-        <Spline
+      <div className="absolute inset-0 z-10 flex items-center justify-center">
+        {/* <Spline
           scene="https://prod.spline.design/9xuF1oRA5poA131s/scene.splinecode"
           aria-label="Interactive 3D animation"
-        />
+        /> */}
+        <img src={logo} alt="Background" className="w-[85%]" />
       </div>
 
       {/* 2. Overlay Content */}
       {/* Content is aligned to the center */}
       <div className="relative z-20 flex items-center justify-center w-full h-full p-8 text-center bg-black/20 pointer-events-none sm:p-16 md:p-24">
         <div className="max-w-md pointer-events-auto">
-          <h1 className="font-pixel flex items-center justify-center gap-x-2 text-5xl font-bold text-white md:text-7xl lg:text-8xl [text-shadow:_0_3px_5px_rgb(0_0_0_/_40%)]">
-            <WordRotate words={greetings} />
-            {", I'm"}
+          <h1 className="font-pixel flex items-center justify-center text-4xl md:text-6xl lg:text-7xl font-bold text-white [text-shadow:_0_3px_5px_rgb(0_0_0_/_40%)]">
+
+            <span className="inline-block min-w-[220px] md:min-w-[260px] lg:min-w-[320px] text-right">
+              <WordRotate words={greetings} />
+            </span>
+
+            <span className="ml-2">
+              I'm
+            </span>
+
           </h1>
-          
+                    
           {/* Rotating Text for Skills */}
           <div className="flex justify-center mt-4">
             <RotatingText
