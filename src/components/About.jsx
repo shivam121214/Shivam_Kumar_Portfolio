@@ -22,7 +22,11 @@ export default function About({ scrollContainerRef }) {
           containerClassName="my-12"
           textClassName="font-sans text-base sm:text-lg md:text-xl"
         >
-         I enjoy working with motion, interaction, and web aesthetics — exploring how small details, smooth transitions, and creative visuals can shape a better experience. A lot of my work revolves around experimenting with layouts, animation, and timing, and finding that balance where things not only look good but also feel natural to use. From early visual ideas to refined interfaces, I like focusing on flow, usability, and the tiny moments that make a project feel cohesive and intentional. The goal is always the same — create experiences that feel smooth, engaging, and meaningful rather than just functional.
+          I’m a full-stack developer focused on building practical and scalable web applications. I enjoy working across both frontend and backend, with a strong interest in developing clean user interfaces and reliable backend systems.
+
+          I have built projects like a Lost and Found Management System and an e-commerce platform for a fitness brand, where I implemented features such as authentication, structured APIs, and responsive design. Through these projects, I focused on real-world usability, performance, and maintainable code.
+
+          I believe in learning by building — continuously improving my skills by solving real problems and working on complete applications. My goal is to create solutions that are not just functional, but efficient, reliable, and meaningful.
         </ScrollReveal>
       </div>
     </section>
