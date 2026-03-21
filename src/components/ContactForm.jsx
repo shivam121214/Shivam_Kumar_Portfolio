@@ -84,7 +84,7 @@ export default function ContactForm() {
           </form>
         </div>
         {/* Rainbow GitHub Button */}
-        <div className="flex justify-center mt-8">
+        {/* <div className="flex justify-center mt-8">
           <a
             href="https://github.com/Deadcoder001/React-Personal-Portfolio.git"
             target="_blank"
@@ -125,7 +125,7 @@ export default function ContactForm() {
               </div>
             </button>
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
