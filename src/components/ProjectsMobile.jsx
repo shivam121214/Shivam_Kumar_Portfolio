@@ -67,7 +67,7 @@ export default function ProjectsMobile() {
     const displayedProjects = showAll ? projectData : projectData.slice(0, 3);
 
     return (
-        <section id="projects-mobile" className="w-full bg-white text-black py-12 px-2">
+        <section id="projects" className="w-full bg-white text-black py-12 px-2">
             <div className="text-center mb-8">
                 <h2 className="text-3xl font-bold font-pixel underline-wavy-yellow inline-block">
                     <Highlighter action="underline" color="#FFD700">
