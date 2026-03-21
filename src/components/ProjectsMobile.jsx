@@ -16,41 +16,14 @@ import { Truck } from 'lucide-react';
 // --- Data for the projects ---
 const projectData = [
     {
-        title: 'Sahityaa Sangamm',
+        title: 'Infused Nutrition',
         description: 'A modern e-commerce platform built with Blade and Laravel.',
         // Use your Cloudinary video URL here:
-        videoUrl: 'https://res.cloudinary.com/dktapziq9/video/upload/v1764394626/1764393871242766_dqfnqn.mp4',
+        videoUrl: 'https://res.cloudinary.com/dn1udisiy/video/upload/v1774093143/2026-03-21_16-53-53_srllyq.mkv',
         imageUrl: project1Img, // optional fallback
-        liveUrl: 'https://sahityaasangamm.in',
+        liveUrl: 'https://infuse-frontend-k8f7.onrender.com/',
         repoUrl: '#',
         tags: ['Blade', 'Laravel', 'MySQL'],
-    },
-    {
-        title: 'Portfolio Website',
-        description: 'My personal portfolio website built with React and Tailwind CSS.',
-        videoUrl: 'https://res.cloudinary.com/dktapziq9/video/upload/v1764395075/1764395026924189_ij9257.mov',
-        imageUrl: project7Img,
-        liveUrl: 'https://ashifelahi.netlify.app',
-        repoUrl: 'https://github.com/Deadcoder001/React-Personal-Portfolio.git',
-        tags: ['React', 'Tailwind CSS', 'GSAP', 'Spline', 'Framer Motion', 'Lenis'],
-    },
-    {
-        title: 'ONS Trading Application',
-        description: 'A real-time trading application using Django and Bootstrap 5.',
-        videoUrl: 'https://res.cloudinary.com/dktapziq9/video/upload/v1764395357/1764395325884939_lrg7f4.mp4',
-        imageUrl: project5Img,
-        liveUrl: 'https://ons-trading.onrender.com',
-        repoUrl: 'https://github.com/Deadcoder001/ons_trading.git',
-        tags: ['Django', 'yfinance', 'Bootstrap 5'],
-    },
-    {
-        title: 'Creatorhub',
-        description: 'An Influencer Marketing platform for Creators and brands built with React.',
-        videoUrl: 'https://res.cloudinary.com/dktapziq9/video/upload/v1764396382/1764396334647746_qruqaf.mp4',
-
-        liveUrl: 'https://creatorhub.in',
-        repoUrl: '#',
-        tags: ['React', 'Node.js', 'MongoDB'],
     },
     {
         title: 'Tea Country',
@@ -78,30 +51,14 @@ const projectData = [
         repoUrl: '#',
         tags: ['React', 'Vue', 'Tailwind CSS'],
     },
-
-        {
-        title: 'Jana Kalyan Swastha sewa',
-        description: 'A Healthcare website built with HTML and php.',
-        imageUrl: project6Img,
-        liveUrl: 'https://jkssewa.org',
-        repoUrl: '#',
-        tags: ['HTML', 'CSS', 'JavaScript','PHP', 'MySQL'],
-    },
     {
-        title: 'Janaewa',
-        description: 'A NGO website built with HTML, CSS and JavaScript.',
-        imageUrl: project8Img,
-        liveUrl: 'https://janasewa.org',
-        repoUrl: '#',
-        tags: ['HTML', 'CSS', 'JavaScript'],
-    },
-        {
-        title: 'Earmacs',
-        description: 'A Hotel Management website built with Wordpress and PHP.',
-        imageUrl: project9Img,
-        liveUrl: 'https://earmacs.com',
-        repoUrl: '#',
-        tags: ['Wordpress', 'PHP'],
+        title: 'Portfolio Website',
+        description: 'My personal portfolio website built with React and Tailwind CSS.',
+        videoUrl: 'https://res.cloudinary.com/dktapziq9/video/upload/v1764395075/1764395026924189_ij9257.mov',
+        imageUrl: project7Img,
+        liveUrl: 'https://ashifelahi.netlify.app',
+        repoUrl: 'https://github.com/Deadcoder001/React-Personal-Portfolio.git',
+        tags: ['React', 'Tailwind CSS', 'GSAP', 'Spline', 'Framer Motion', 'Lenis'],
     },
 ];
 

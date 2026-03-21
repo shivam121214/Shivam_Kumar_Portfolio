@@ -33,15 +33,6 @@ const projectData = [
         tags: ['Blade', 'Laravel', 'MySQL'],
     },
     {
-        title: 'Portfolio Website',
-        description: 'My personal portfolio website built with React and Tailwind CSS.',
-        videoUrl: 'https://res.cloudinary.com/dktapziq9/video/upload/v1764395075/1764395026924189_ij9257.mov',
-        imageUrl: project7Img,
-        liveUrl: 'https://shivam-kumar-portfolio-nu.vercel.app/',
-        repoUrl: '#',
-        tags: ['React', 'Tailwind CSS', 'GSAP', 'Spline', 'Framer Motion', 'Lenis'],
-    },
-    {
         title: 'Scabbard Tech',
         description: 'A Digital Marketing website built with React, Vue and Tailwind CSS.',
         videoUrl: 'https://res.cloudinary.com/dktapziq9/video/upload/v1764397211/1764397136159111_zlcckk.mp4',
@@ -57,6 +48,15 @@ const projectData = [
         liveUrl: 'https://teacountry.in',
         repoUrl: '#',
         tags: ['React', 'Vue', 'Tailwind CSS'],
+    },
+    {
+        title: 'Portfolio Website',
+        description: 'My personal portfolio website built with React and Tailwind CSS.',
+        videoUrl: 'https://res.cloudinary.com/dktapziq9/video/upload/v1764395075/1764395026924189_ij9257.mov',
+        imageUrl: project7Img,
+        liveUrl: 'https://shivam-kumar-portfolio-nu.vercel.app/',
+        repoUrl: '#',
+        tags: ['React', 'Tailwind CSS', 'GSAP', 'Spline', 'Framer Motion', 'Lenis'],
     },
 ];
 
