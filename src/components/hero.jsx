@@ -72,7 +72,7 @@ export default function Hero() {
               <ArrowRight size={20} />
             </a>
             <a
-              href="https://drive.google.com/file/d/1vuvWLNdXU6Mh2FTUlzscJUAOXo-Uc_D9/view?usp=share_link"
+              href="https://drive.google.com/file/d/1eYaeWFAD8ORQFJyHW-7tpMr5fa0lRR_C/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 text-base font-semibold text-white transition-all duration-300 bg-transparent border border-white rounded-lg shadow-lg pointer-events-auto hover:bg-white hover:text-white hover:scale-105"
