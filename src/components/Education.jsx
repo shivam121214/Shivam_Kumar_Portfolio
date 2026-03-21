@@ -46,17 +46,23 @@ export default function Education() {
                   </Folder>
                   <Folder element="Oracle University" value="Oracle">
                     <File value="Oracle-AI">
-                      <p>Oracle Cloud Infrastructure AI Foundation Associate</p>
+                      <a href="https://drive.google.com/file/d/1Mb4nT2DpZ1Vdwtsyg5QGM3mpV9_89HSF/view" target="_blank" rel="noopener noreferrer">
+                        <p>Oracle Cloud Infrastructure AI Foundation Associate</p>
+                      </a>
                     </File>
                   </Folder>
                   <Folder element="IIT Kharagpur" value="IITK">
                     <File value="IITK-Cloud">
-                      <p>Cloud Computing</p>
+                      <a href="https://drive.google.com/file/d/1KDF6DFNdAYysejn0wNAsXM-SC7f_zfpo/view" target="_blank" rel="noopener noreferrer">
+                        <p>Cloud Computing</p>
+                      </a>
                     </File>
                   </Folder>
                   <Folder element="NEO Colab" value="NEO">
                     <File value="NEO-DSA">
-                      <p>Data Structure and Algorithms</p>
+                      <a href="https://drive.google.com/file/d/13-4QtdPVJTYUYnWEeTfOOxevDDLxJBmZ/view" target="_blank" rel="noopener noreferrer">
+                        <p>Data Structures and Algorithms</p>
+                      </a>
                     </File>
                   </Folder>
                 </Folder>
