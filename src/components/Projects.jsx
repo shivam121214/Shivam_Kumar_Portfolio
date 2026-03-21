@@ -24,21 +24,21 @@ import { Truck } from 'lucide-react';
 const projectData = [
     {
         title: 'Infused Nutrition',
-        description: 'A modern e-commerce platform built with Blade and Laravel.',
+        description: 'A modern e-commerce platform built with React and Node.js.',
         // Use your Cloudinary video URL here:
         videoUrl: 'https://res.cloudinary.com/dn1udisiy/video/upload/v1774093143/2026-03-21_16-53-53_srllyq.mkv',
         imageUrl: project1Img, // optional fallback
         liveUrl: 'https://infuse-frontend-k8f7.onrender.com/',
         repoUrl: '#',
-        tags: ['Blade', 'Laravel', 'MySQL'],
+        tags: ['React', 'Node.js', 'MongoDB'],
     },
     {
         title: 'Scabbard Tech',
-        description: 'A Digital Marketing website built with React, Vue and Tailwind CSS.',
+        description: 'A Digital Marketing website built with React, Node.js and Tailwind CSS.',
         videoUrl: 'https://res.cloudinary.com/dktapziq9/video/upload/v1764397211/1764397136159111_zlcckk.mp4',
         liveUrl: 'https://scabbardtech.com',
         repoUrl: '#',
-        tags: ['React', 'Vue', 'Tailwind CSS'],
+        tags: ['React', 'Node.js', 'Tailwind CSS'],
     },
     {
         title: 'Tea Country',
@@ -47,7 +47,7 @@ const projectData = [
         imageUrl: project2Img,
         liveUrl: 'https://teacountry.in',
         repoUrl: '#',
-        tags: ['React', 'Vue', 'Tailwind CSS'],
+        tags: ['React', 'Node.js', 'Tailwind CSS'],
     },
     {
         title: 'Portfolio Website',
