@@ -33,7 +33,7 @@ export default function ContactForm() {
         <div className="max-w-md mx-auto px-8 py-6 bg-gray-50 rounded-lg shadow-lg">
           <h2 className="text-2xl font-semibold text-gray-800 mb-4 text-center">Contact Me</h2>
           <form 
-            action="https://formspree.io/f/xrbwdkqb" 
+            action="https://formspree.io/f/xaqpzyaj" 
             method="POST"
           >
             <div className="mb-4">
