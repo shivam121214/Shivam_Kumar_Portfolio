@@ -17,47 +17,46 @@ export default function Education() {
           <div className="relative flex max-w-lg mx-auto flex-col items-center justify-center overflow-hidden rounded-lg border bg-background p-4">
             <Tree
               className="w-full bg-background overflow-hidden rounded-md"
-              initialExpandedItems={["Education", "KU", "MC", "BA", "BHS", "Certifications"]}
+              initialExpandedItems={["Education", "LPU", "SXHS", "SXHS", "Certifications"]}
             >
               <Folder element="My Education" value="Education">
-                <Folder element="Kaziranga University" value="KU">
-                  <File value="KU-MCA">
-                    <p>Masters of Computer Application (2023 – 2025)</p>
+                <Folder element="Lovely Professional University, Punjab" value="LPU">
+                  <File value="LPU-BTech">
+                    <p>B.Tech in Computer Science and Engineering (2023 – 2027)</p>
                   </File>
                 </Folder>
-                <Folder element="M.C College, Barpeta" value="MC">
-                  <File value="MC-BCA">
-                    <p>Bachelor of Computer Application (2019 – 2022)</p>
+                <Folder element="St. Xaviers High School, Patna" value="SXHS">
+                  <File value="SXHS-HigherSecondary">
+                    <p>Higher Secondary (2022)</p>
                   </File>
                 </Folder>
-                <Folder element="Bidyasagar Academy, Howly" value="BA">
-                  <File value="BA-HS">
-                    <p>Higher Secondary (2019)</p>
-                  </File>
-                </Folder>
-                 <Folder element="Barpeta Govt. HS School" value="BHS">
-                   <File value="BHS-Matric">
-                    <p>Matriculation (2016)</p>
+                 <Folder element="St. Xaviers High School, Patna" value="SXHS">
+                   <File value="SXHS-Matric">
+                    <p>Matriculation (2020)</p>
                   </File>                   
                 </Folder>
               </Folder>
                 <Folder element="My Certifications" value="Certifications">
-                  <Folder element="Cisco" value="Cisco">
-                    <File value="Cisco-Intro">
-                      <p>Introduction to Cybersecurity</p>
-                    </File>
-                    <File value="Cisco-Jr">
-                      <p>Jr. Cybersecurity Analyst</p>
-                    </File>
-                  </Folder>
-                  <Folder element="IBM" value="IBM">
-                    <File value="IBM-Python">
-                      <p>Python 101 for Data Science</p>
+                  <Folder element="SkillStone" value="SkillStone">
+                    <File value="SkillStone-Intro">
+                      <a href="https://drive.google.com/file/d/13WlVIkJayCTGvn5hdmo3KwEuY6D1T7kq/view" target="_blank" rel="noopener noreferrer">
+                        <p>Java Fundamentals</p>
+                      </a>
                     </File>
                   </Folder>
-                  <Folder element="AWS" value="AWS">
-                    <File value="AWS-Cloud">
-                      <p>Cloud Foundations (AWS Academy Graduate)</p>
+                  <Folder element="Oracle University" value="Oracle">
+                    <File value="Oracle-AI">
+                      <p>Oracle Cloud Infrastructure AI Foundation Associate</p>
+                    </File>
+                  </Folder>
+                  <Folder element="IIT Kharagpur" value="IITK">
+                    <File value="IITK-Cloud">
+                      <p>Cloud Computing</p>
+                    </File>
+                  </Folder>
+                  <Folder element="NEO Colab" value="NEO">
+                    <File value="NEO-DSA">
+                      <p>Data Structure and Algorithms</p>
                     </File>
                   </Folder>
                 </Folder>
